@@ -1,0 +1,48 @@
+/* Geral */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+    color: #333;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/R.jfif");
+    background-position: center;
+    background-size: cover;
+}
+
+button{
+    background-color: #FDFDFD;
+    color: #102f5e;
+    border: 2px solid #102f5e;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+/*todo header*/
+.todo-container{
+    max-width: 450px;
+    margin: 3rem auto 0;
+    background-color: #FDFDFD;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+/*Finalizando projeto*/
+#toolbar{
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.grid{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+}
